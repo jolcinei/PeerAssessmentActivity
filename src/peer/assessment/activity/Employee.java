@@ -24,6 +24,7 @@ public class Employee implements Employed {
     public Employee(String name, int contract, int years, String departament) {
         this.name = name;
         this.contract = contract;
+        
         this.years = years;
         this.departament = departament;
     }
