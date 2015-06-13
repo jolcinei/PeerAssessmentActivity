@@ -15,7 +15,7 @@ public class Employee implements Employed {
 
     private int contract;
 
-    private final String[] integers = new String[]{"TEMPORARY", "TRAINING", "INDEFINITE"};
+    private final String[] integers = new String[]{"temporary", "training", "indefinite"};
 
     private int years;
 

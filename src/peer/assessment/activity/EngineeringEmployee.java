@@ -13,8 +13,8 @@ public class EngineeringEmployee extends Employee implements Employed {
 
     private static final double SALARY = 25000;
 
-    public EngineeringEmployee(String name, int contract, int years, String departament) {
-        super(name, contract, years, departament);
+    public EngineeringEmployee(String name, int years) {
+        super(name, 1, years, "Engineering");
     }
 
     @Override
